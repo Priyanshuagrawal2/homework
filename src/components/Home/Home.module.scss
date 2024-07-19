@@ -1,0 +1,35 @@
+.home {
+  margin: 1rem;
+  border: 0.4rem solid rgb(98, 143, 234);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  min-height: calc(100vh - 2rem);
+}
+
+.title {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  overflow-y: scroll;
+  flex-grow: 1;
+}
+
+.content .box {
+  border: 0.4rem solid rgb(255, 0, 0);
+  border-radius: 4px;
+  padding: 1rem;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.content h1 {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0.5rem;
+}

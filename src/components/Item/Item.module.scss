@@ -1,0 +1,12 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  border: 0.4rem solid rgb(174, 2, 174);
+  padding: 0.5rem;
+  border-radius: 4px;
+  flex-grow: 1;
+  margin: 0.5rem 0px;
+  flex-grow: 1;
+
+  overflow: auto;
+}
